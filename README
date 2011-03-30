@@ -1,10 +1,13 @@
 # app-magic
 
-FIXME: write description
+This is a toy project to get started with Clojure, Leiningen, appenegine-magic, Ring etc.
 
 ## Usage
 
-FIXME: write
+lein appengine-prepare
+/Users/biafra/appengine-sdk/bin/appcfg.sh update war
+
+You might need to change the app name in ./war/WEB-INF/appenegine-web.xml
 
 ## License
 
